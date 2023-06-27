@@ -1,0 +1,66 @@
+
+[
+    
+    {
+        "id": "vela-pequeña",
+        "titulo": "Aroma a Chocolate ",
+        "imagen": "./img/v-chocolate.jpeg",
+        "categoria": {
+            "nombre": "Vela Pequeñas",
+            "id": "vela-pequeña"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "vela-pequeña",
+        "titulo": "Aroma a Fresa ",
+        "imagen": "./img/v-fresa.jpeg",
+        "categoria": {
+            "nombre": "Vela Pequeñas",
+            "id": "vela-pequeña"
+        },
+        "precio": 1500
+    },
+    {
+        "id": "vela-pequeña",
+        "titulo": "Aroma a Jazim ",
+        "imagen": "./img/v-jazmin.jpeg",
+        "categoria": {
+            "nombre": "Vela Pequeñas",
+            "id": "vela-pequeña"
+        },
+        "precio": 1500
+    },
+   
+    {
+        "id": "vela-grande",
+        "titulo": "Aroma a Jazim XXL",
+        "imagen": "./img/vg-jazmin.jpeg",
+        "categoria": {
+            "nombre": "Velas Grandes",
+            "id": "vela-grande"
+        },
+        "precio": 5000
+    },
+    
+    {
+        "id": "vela-personalisada",
+        "titulo": "Vela Navideña ",
+        "imagen": "./img/v-navideña.jpeg",
+        "categoria": {
+            "nombre": "Velas Personalizadas",
+            "id": "vela-personalisada"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "vela-personalisada",
+        "titulo": "Vela Personalizada con Aroma a Mocaccino ",
+        "imagen": "./img/vp-moca.jpeg",
+        "categoria": {
+            "nombre": "Velas Personalizadas",
+            "id": "vela-personalisada"
+        },
+        "precio": 3000
+    }
+]
