@@ -1,5 +1,3 @@
-
-
 //datos que seran llamadss por el dom
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const btnCategorias = document.querySelectorAll(".boton-categoria");
@@ -33,7 +31,17 @@ function cargarProductos(productos){
     
 }
 
-cargarProductos(productos);
+//LLamando nuestro json con los productos usando fetch
+let productos = [];
+
+fetch("./js/productos.json")
+    .then(response => response.json())
+    .then(data => {
+        productos = data;
+        cargarProductos(productos);
+    })
+
+
 
 //Creamos un eventlistener para que los se activen los botones del menu de navegacion
 
